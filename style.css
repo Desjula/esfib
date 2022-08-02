@@ -1,0 +1,80 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: decimal;
+}
+
+img{
+    width: 192px;
+    height: 108px;
+}
+
+header, .sluzby, .kontakt{
+    background-color: lightgray;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: 3px solid gray;
+    margin:  0;
+    background-color: gray;
+}
+
+h2{
+    margin: 10px 0 10px 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+
+.navig__list{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navig__item{
+    list-style: none;
+    margin: 0 5px;
+}
+
+.sekce{
+    padding: 5px 10px;
+}
+
+footer{
+    height: 20px;
+}
+
+.sluzby__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sluzby__item{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
+    list-style: none;
+}
