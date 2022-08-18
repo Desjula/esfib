@@ -33,9 +33,9 @@ h1 {
 }
 
 hr {
-  border: 3px solid rgb(29, 153, 56); /*nepropisuje se do _site*/
+  border: 3px solid gold;
   margin: 0;
-  background-color: rgb(29, 153, 56);
+  background-color: gold;
 }
 
 h2 {
@@ -48,8 +48,6 @@ header {
   justify-content: space-between;
   padding: 15px 10px;
   align-items: center;
-  /* position: sticky;
-  top: 0; */
 }
 
 .navig__list {
@@ -83,10 +81,6 @@ footer {
   list-style: none;
 }
 
-/*
-
-
-*/
 .mySlides {
   display: none;
 }
@@ -96,14 +90,12 @@ img {
   height: 500px;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -114,16 +106,14 @@ img {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
-  color: rgb(29, 153, 56);
+  color: gold;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   height: 15px;
   width: 15px;
@@ -138,7 +128,6 @@ img {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
           animation-name: fade;
@@ -163,7 +152,6 @@ img {
     opacity: 1;
   }
 }
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
