@@ -1,6 +1,13 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+$primary-color: lightgray;
+$secondary-color: lightblue;
+$cara-color: rgb(29, 153, 56);
+$paragraph-color: black;
+$header-two-color: black;
+$main-header-color: black;
+
 body{
     margin: 0;
 }
@@ -19,7 +26,7 @@ img{
 }
 
 header, .sluzby, .kontakt{
-    background-color: lightgray;
+    background-color: $primary-color;
 }
 
 h1{
@@ -28,9 +35,9 @@ h1{
 }
 
 hr{
-    border: 3px solid gray;
+    border: 3px solid $cara-color; /*nepropisuje se do _site*/
     margin:  0;
-    background-color: gray;
+    background-color: $cara-color;
 }
 
 h2{
@@ -73,18 +80,14 @@ footer{
 }
 
 .sluzby__item{
-    background-color: aquamarine;
+    background-color: $secondary-color;
     padding: 5px;
     border-radius: 10px;
     list-style: none;
 }
 
 
-
-
-
 /*
-
 
 
 */
@@ -115,7 +118,7 @@ height: 500px;
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: $cara-color;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -152,3 +155,4 @@ height: 500px;
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+

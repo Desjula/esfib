@@ -1,7 +1,7 @@
 {
   "name": "esfib",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
