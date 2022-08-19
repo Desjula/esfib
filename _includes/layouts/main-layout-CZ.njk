@@ -9,16 +9,17 @@
 </head>
 <body>
 
-    <main class="main">
+    <div class="whole-layout">
 
+	{% include "partials/header.njk" %}
+
+    <main class="main">
         {{ content | safe}}
-        
     </main>
 
+	{% include "partials/footer.njk" %}
 
-    <footer>
-        &copy 2022 Desjula
-    </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>

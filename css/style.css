@@ -6,6 +6,19 @@ html {
   box-sizing: inherit;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 10px 0 10px 0;
+}
+
+.sekce {
+  padding: 5px 10px;
+}
+
 body {
   margin: 0;
 }
@@ -18,67 +31,9 @@ li {
   list-style: decimal;
 }
 
-img {
+.slider__img {
   width: 192px;
   height: 108px;
-}
-
-header, .sluzby, .kontakt {
-  background-color: lightgray;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-  border: 3px solid gold;
-  margin: 0;
-  background-color: gold;
-}
-
-h2 {
-  margin: 10px 0 10px 0;
-}
-
-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 10px;
-  align-items: center;
-}
-
-.navig__list {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navig__item {
-  list-style: none;
-  margin: 0 5px;
-}
-
-.sekce {
-  padding: 5px 10px;
-}
-
-footer {
-  height: 20px;
-}
-
-.sluzby__list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.sluzby__item {
-  background-color: lightblue;
-  padding: 5px;
-  border-radius: 10px;
-  list-style: none;
 }
 
 .mySlides {
@@ -107,7 +62,7 @@ img {
 }
 
 .numbertext {
-  color: gold;
+  color: lightblue;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -156,4 +111,53 @@ img {
   .text {
     font-size: 11px;
   }
+}
+hr {
+  border: 3px solid gold;
+  margin: 0;
+  background-color: gold;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.navig__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navig__item {
+  list-style: none;
+  margin: 0 5px;
+}
+
+footer {
+  height: 20px;
+}
+
+.kontakt {
+  background-color: lightgray;
+}
+
+.sluzby {
+  background-color: lightgray;
+}
+
+.sluzby__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sluzby__item {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 10px;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
