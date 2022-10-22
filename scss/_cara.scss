@@ -1,0 +1,7 @@
+@use "basis";
+
+hr{
+    border: 3px solid basis.$cara-color;
+    margin:  0;
+    background-color: basis.$cara-color;
+}

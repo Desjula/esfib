@@ -1,3 +1,13 @@
+@use "basis";
+@use "slider";
+@use "cara";
+@use "header";
+@use "footer";
+@use "kontakt";
+@use "oNas";
+@use "reference";
+@use "sluzby";
+
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
